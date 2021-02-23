@@ -115,7 +115,7 @@ class GetHostList(Component):
         else:
             result = {
                 'result': False,
-                'message': result['message']
+                'message': response['message']
             }
         # 设置组件返回结果，payload为组件实际返回结果
         self.response.payload = result
